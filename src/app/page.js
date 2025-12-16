@@ -142,12 +142,14 @@ export default function Home() {
                       }
                     </button>
                   </div>
-                  <button
-                      className="btn btn-secondary w-full mt-4"
-                      onClick={handleDownload}
-                  >
-                    SVG herunterladen
-                  </button>
+                  <div className={"flex justify-center"}>
+                    <button
+                        className="btn btn-primary max-w-42 mt-4"
+                        onClick={handleDownload}
+                    >
+                      SVG herunterladen
+                    </button>
+                  </div>
                 </div>
               </>
           )}
